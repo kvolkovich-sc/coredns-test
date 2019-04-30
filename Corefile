@@ -1,6 +1,7 @@
 (defaults) {
   log
   errors
+  reload 2s
 }
 
 volkovich.local {
@@ -13,4 +14,14 @@ test.local {
 
 usa.local {
   import defaults
+}
+
+example.org {
+  import defaults
+  file db.example.org
+}
+
+. {
+  import defaults
+  forward . 8.8.8.8:53 9.9.9.9:53
 }
