@@ -1,0 +1,16 @@
+(defaults) {
+  log
+  errors
+}
+
+volkovich.local {
+  import defaults
+}
+
+test.local {
+  import defaults
+}
+
+usa.local {
+  import defaults
+}
