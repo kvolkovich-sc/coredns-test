@@ -23,5 +23,5 @@ example.org {
 
 . {
   import defaults
-  forward . 8.8.8.8:53 9.9.9.9:53
+  forward . 8.8.8.8
 }
